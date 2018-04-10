@@ -1,0 +1,266 @@
+.x_content p{
+  font-size:1.2em;
+  color:#323232;
+  font-weight: 300;
+}
+.x_content{
+  padding-right:30%;
+  padding-top: 40px;
+}
+.content-text{
+  margin-top:0;
+}
+.content-text p{
+  margin:10px 0;
+}
+.text-link{
+  margin-left: 20px;
+  color:#1d1fed;
+}
+.text-link:hover{
+  color: #19b291;
+}
+.text-right{
+  text-align:right;
+}
+.text-left{
+  text-align: left;
+}
+.internet-c{
+  padding-left: 6%;
+  padding-top: 40px;
+}
+.bh-coin{
+  border:1px solid #e4e4e7;
+  border-radius: 4px;
+  text-align:center;
+  padding:20px;
+}
+.bhb{
+  padding:14px 4px;
+  background-color: #37a860;
+  color:#fff;
+  margin:0 auto;
+  width:60px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.bh-coin p{
+  margin:4px ;
+  font-weight: 300;
+  font-size:1.1em;
+  color:#64696f;
+}
+.bhb-badge{
+  position:absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #f4f4f7;
+  color:#fff;
+  font-size:1em;
+  padding:2px;
+  border-radius: 2px;
+}
+.wallet-text p{
+  margin: 20px 0 10px 0;
+}
+.wallet-radio ul { list-style-type: none;}
+.wallet-radio li { display: inline-block;}
+.wallet-radio li { margin: 10px 0;}
+.wallet-radio i{
+  color: #de343f;
+  font-size:10px;
+  margin-left: 4px;
+}
+input.labelauty + label { font: 12px "Microsoft Yahei";}
+
+/* Prevent text and blocks selection */
+input.labelauty + label ::selection { background-color: rgba(255, 255, 255, 0); }
+input.labelauty + label ::-moz-selection { background-color: rgba(255, 255, 255, 0); }
+
+/* Hide original checkboxes. */
+input.labelauty { display: none !important; }
+
+/*style the input */
+input.labelauty + label
+{
+	display: table;
+	padding: 10px;
+	background-color: #fff;
+	color: #323232;
+	cursor: pointer;
+  border:2px solid #dfdfdf;
+	transition: border-color 0.25s;
+	-moz-transition: border-color 0.25s;
+	-webkit-transition: border-color 0.25s;
+	-o-transition: border-color 0.25s;
+
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+  margin-right: 10px;
+}
+
+/* Stylish text inside label */
+
+input.labelauty + label > span.labelauty-unchecked,
+input.labelauty + label > span.labelauty-checked
+{
+	display: inline-block;
+	line-height: 16px;
+  width:100px;
+  text-align: center;
+}
+
+
+
+/* When not Checked */
+input.labelauty:not(:checked):not([disabled]) + label:hover
+{
+	background-color: #fff;
+	border-color:#2c9af9;
+}
+
+input.labelauty:not(:checked) + label > span.labelauty-checked
+{
+	display: none;
+}
+
+/* When Checked */
+input.labelauty:checked + label
+{
+  border-color:#2c9af9;
+  background: url( ../images/check.png ) bottom right no-repeat ;
+}
+
+
+input.labelauty:checked + label > span.labelauty-unchecked
+{
+	display: none;
+}
+
+input.labelauty:checked + label > span.labelauty-checked
+{
+	display: inline-block;
+}
+
+input.labelauty.no-label:checked + label > span.labelauty-checked
+{
+	display: block;
+}
+
+.wechat input.labelauty + label > span.labelauty-unchecked,
+.wechat input.labelauty + label > span.labelauty-checked
+{
+	padding-left: 14px;
+}
+.alipay input.labelauty + label > span.labelauty-unchecked,
+.alipay input.labelauty + label > span.labelauty-checked
+{
+	padding-left: 14px;
+}
+.bank input.labelauty + label > span.labelauty-unchecked,
+.bank input.labelauty + label > span.labelauty-checked
+{
+	padding-left: 14px;
+}
+.wechat input.labelauty + label>span
+{
+	background: url( ../images/wechat.png )  no-repeat ;
+}
+
+.alipay input.labelauty + label>span
+{
+	background: url( ../images/alipay.png )  no-repeat ;
+}
+
+.bank input.labelauty + label>span
+{
+	background: url( ../images/bank.png )  no-repeat ;
+}
+.wechat-pay{
+  border-top:2px solid #E6E9ED;
+}
+.qrcode{
+  margin-left: 10%;
+  margin-top:8%;
+  width:90%;
+}
+.qrcode-btn{
+  margin-left: 10%;
+  margin-top:8%;
+  width:90%;
+}
+.wechat-pay-qr{
+  width:40%;
+  margin-bottom: 4%;
+}
+
+label{
+  color:#323232;
+  font-weight: 300;
+  font-size:1.2em;
+}
+.form-group{
+  margin:20px 0;
+}
+.form-group p{
+  font-size: 1em;
+}
+.form-avatar{
+  margin-top:-60px;
+}
+.form-avatar img{
+  margin-top:-10px;
+}
+.form-btn{
+  margin-top: 30px;
+}
+.label-strong{
+  font-weight: 500;
+}
+.setting-icon{
+  width:40px;
+  padding-top: 5px;
+}
+.setting-btn{
+  margin:12px 0;
+}
+.safty-item{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*media*/
+
+@media only screen and (max-width: 768px) {
+  .x_content{
+    padding-right:0;
+  }
+  .wallet-text{
+    text-align:left;
+  }
+  .internet-c .text-right{
+    text-align: left;
+  }
+ .internet-link{
+   display: block;
+   margin-left: 0;
+ }
+ .x_content{
+   padding-right:10%;
+ }
+ .qrcode-btn{
+   width:auto;
+ }
+
+}
