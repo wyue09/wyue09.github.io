@@ -267,7 +267,7 @@
         img9.src = "assets/imgen/wd.png";
         img10.src = "assets/imgen/we.png";
         img11.src = "assets/imgen/we.png";
-        img12.src = "assets/imgen/aa.png";   
+        img12.src = "assets/imgen/aa.png";
         img13.src = "assets/imgen/ab.png";
         img14.src = "assets/imgen/ac.png";
     }
@@ -287,32 +287,7 @@ function addLoadEvent(func) {
 }
 addLoadEvent(preloader);
 
-  (function(){
-    var imgSrcArr = [
-        'assets/imgen/ca.png',
-        'assets/imgen/cb.png',
-        'assets/imgen/cc.png',
-        'assets/imgen/cd.png',
-        'assets/imgen/ce.png',
-        'assets/imgen/wa.png',
-        'assets/imgen/wb.png',
-        'assets/imgen/wc.png',
-        'assets/imgen/wd.png',
-        'assets/imgen/we.png',
-        'assets/imgen/aa.png',
-        'assets/imgen/ab.png',
-        'assets/imgen/ac.png',
-    ];
-    var imgWrap = [];
-
-    function preloadImg(arr) {
-        for(var i =0; i< arr.length ;i++) {
-            imgWrap[i] = new Image();
-            imgWrap[i].src = arr[i];
-        }
-    }
-    setTimeout(function(){preloadImg(imgSrcArr)},5000)
-}());
+  
 
   $(document).ready(function(){
     $("#cA").addClass("start");
