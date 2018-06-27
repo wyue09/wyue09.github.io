@@ -1,0 +1,970 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap2.min.css">
+    <title>Services Cube 客户手册</title>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <link rel="shortcut icon" href="assets/img/icon.png">
+</head>
+<body>
+	<div class="page-wrapper">
+		<nav id="sidebar" class="sidebar-wrapper">
+			<div class="sidebar-content">
+				<a href="#" id="toggle-sidebar"><i class="fa fa-bars"></i></a>
+				<div class="sidebar-brand">
+						<a href="#home" data-toggle="tab" class="nav-link">客户手册</a>
+				</div>
+
+				<div class="sidebar-search">
+						<div>
+								<div class="input-group">
+										<input type="text" class="form-control search-menu" placeholder="搜索...">
+										<span class="input-group-addon"><i class="fa fa-search"></i></span>
+								</div>
+						</div>
+				</div><!-- sidebar-search  -->
+				<div class="sidebar-menu">
+						<ul id="nav-tab">
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Services Cube 产品介绍</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#intro-o" class="nav-link">概述</a></li>
+														<li><a data-toggle="tab" href="#device" class="nav-link">设备兼容性</a></li>
+														<li><a data-toggle="tab" href="#flow" class="nav-link">工作流程概述</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>登录APP</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#sign-up" class="nav-link">注册</a></li>
+														<li><a data-toggle="tab" href="#sign-in" class="nav-link">登录</a></li>
+												</ul>
+										</div>
+								</li>
+                <li class="sidebar-dropdown">
+										<a href="#"><span>基础设置</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#setting-o" class="nav-link">概述</a></li>
+                            <li><a data-toggle="tab" href="#contact" class="nav-link">联系信息</a></li>
+														<li><a data-toggle="tab" href="#personal" class="nav-link">个人信息</a></li>
+                            <li><a data-toggle="tab" href="#wallet" class="nav-link">钱包</a></li>
+														<li><a data-toggle="tab" href="#reset" class="nav-link">重置密码</a></li>
+												</ul>
+										</div>
+								</li>
+                <li class="sidebar-dropdown">
+										<a href="#"><span>服务提供</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#services" class="nav-link">概述</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>创建新的订单</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#create-o" class="nav-link">概述</a></li>
+														<li><a data-toggle="tab" href="#one-time" class="nav-link">创建单次订单</a></li>
+														<li><a data-toggle="tab" href="#repeat" class="nav-link">创建重复性订单</a></li>
+														<li><a data-toggle="tab" href="#payment" class="nav-link">订单支付</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>订单日历</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#calendar-o" class="nav-link">概述</a></li>
+														<li><a data-toggle="tab" href="#calendar-v" class="nav-link">日历视图</a></li>
+														<li><a data-toggle="tab" href="#cards" class="nav-link">订单卡片</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>订单详情</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+													<li><a data-toggle="tab" href="#detail-o" class="nav-link">概述</a></li>
+												</ul>
+										</div>
+								</li>
+                <!--
+                <li class="sidebar-dropdown">
+										<a href="#"><span>Reviews</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">概述</a></li>
+														<li><a href="#">Ratings & Comments</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>QR code</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">概述</a></li>
+														<li><a href="#">Verification of identities</a></li>
+												</ul>
+										</div>
+								</li>
+
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Points</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">概述</a></li>
+														<li><a href="#">Point rules</a></li>
+														<li><a href="#">View point details</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Wallet</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">概述</a></li>
+														<li><a href="#">Add new card</a></li>
+														<li><a href="#">Card memo</a></li>
+														<li><a href="#">Primary payment method</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Others</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Notifications</a></li>
+														<li><a href="#">Location tracking</a></li>
+														<li><a href="#">Help</a></li>
+												</ul>
+										</div>
+								</li>
+              -->
+
+						</ul>
+					 </div><!-- sidebar-menu  -->
+				</div><!-- sidebar-content  -->
+
+
+		</nav><!-- sidebar-wrapper  -->
+  	<main class="container page-content tab-content" id="nav-tabContent">
+
+      <div class="tab-pane in active" id="home">
+        <div class="pull-right">
+          <a href="manualzh.html" class="link"><i class="fa fa-caret-left"></i>&nbsp; 回到主页</a>
+        </div>
+				<div class="landing-page">
+					<img src="assets/img/icon.png" class="icon-img">
+					<h4>Services Cube 客户手册</h4>
+					<p>Copyright © 2018 Services Cube. All rights reserved.</p>
+				</div>
+      </div>
+
+			<div class="tab-pane " id="intro-o">
+				<article>
+					<header class="article-header">
+						<p class="chapter-name">产品介绍</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>什么是 Services Cube</h2>
+						<p>
+              Services cube 致力于联合有资质的服务提供商提供多种类型的现场服务，包括保洁服务，安保服务，维修服务，园艺服务等等。
+							提供给客户的 Services cube APP 让客户从手机上便能轻松快捷地获取可靠的服务。
+						</p>
+						<p>在 Services Cube，您可以进行以下及更多操作:</p>
+						<ul>
+							<li>
+                预定需要的服务，包括保洁服务，安保服务，维修服务，园艺服务等等。您只需预定，其他的事情我们专业的服务人员都会帮您搞定。
+							</li>
+							<li>
+                以日历形式查看服务的排班与预定详情，清晰明了。
+							</li>
+							<li>
+                浏览订单详情，包括订单信息，工作物资，账单详情，工作记录等等。
+							</li>
+							<li>
+                通过实时地图追踪并掌握派遣给您的工人的详细位置信息。
+							</li>
+							<li>
+                通过短信和电话与派遣给您的工人实时交流。
+							</li>
+							<li>
+                订单状态变动时，通过推送通知，短信或邮箱立即获取新的通知。
+							</li>
+              <li>
+                简单而准确的在线账单和支付系统让您随时了解您的支出。
+              </li>
+              <li>
+                Services Cube 的目标就是让客户满意。您可以随意对服务评分及发表评价。
+              </li>
+              <li>
+                安全对我们来说非常重要。有了我们的二维码，您再也不用担心让错误的人进入了你的房子。
+              </li>
+						</ul>
+					</section>
+					<footer>
+            <a href="#home" class="link prev anchor" data-toggle="tab" ><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#device" class="link next anchor" data-toggle="tab" >下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+			<div class="tab-pane" id="device">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">产品介绍</p>
+						<h1 class="article-title">设备兼容性</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              此设备兼容性指南将提供关于哪些电子设备可以连接以及如何连接的相关信息。
+						</p>
+            <h2>支持的设备及系统</h2>
+						<p>
+              Services Cube app 被大多数的 iOS 和 Android 设备支持。大多数两年以下的设备都将运行良好。但是，目前它与 Windows 设备不兼容。
+            </p>
+            <p>Services Cube 可在以下操作系统中运行:</p>
+            <ul>
+              <li>iOS 版本 9.3 (及以上).</li>
+              <li>Android 版本 4.4 (及以上).</li>
+            </ul>
+            <p>
+              请注意，您可能在本页上找不到特定支持的设备，因为新的设备经常更新。尽管我们总是尽力确保对旧版本有足够的支持，我们仍然强烈建议您使用最新的 iOS 和 Android 版本，并保持最新的版本更新。
+            </p>
+            <h2>下载方式</h2>
+            <p>
+              Services Cube app 可以从相应的应用商店进行下载 (<a href="https://play.google.com/store/apps/details?id=com.aurora.servicecube" class="link"> 谷歌应用商店 </a> 和 <a href="https://itunes.apple.com/us/app/services-cube/id1390465688" class="link"> 苹果应用商店 </a>).
+            </p>
+            <p>注意:</p>
+            <ul>
+              <li>安卓用户应该确保他们的谷歌应用商店已更新。</li>
+              <li>我们建议您定期更新以获得新的特性和修复。 </li>
+              <li>如有关于更新设备操作系统的问题，请与您的设备制造商联系。</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#intro-o" class="link prev anchor" data-toggle="tab" ><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#flow" class="link next anchor" data-toggle="tab" >下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+			<div class="tab-pane" id="flow">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">产品介绍</p>
+						<h1 class="article-title">工作流程概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+						<p>
+              下面说明了使用 Services Cube 来申请服务的整个过程。您不必执行每个步骤，但是也可能需要执行一些未列出的操作。
+						</p>
+            <p>
+              所以，下面只是一个简单的例子便于您理解及使用软件。
+            </p>
+            <h2>基本步骤</h2>
+            <p><b>步骤 1: 预定需要的服务</b></p>
+            <p>
+              只需点击几下，您就可以选择服务的日期、时间、频率和持续时间，并在网上安全支付订单费用。
+              放轻松，我们经验丰富的工人将接手剩下的工作。
+            </p>
+            <img src="assets/imgmz/step1.png" class="img">
+            <p><b>步骤 2: 订单分配至您附近的工人</b></p>
+            <p>
+              实时位置跟踪地图和即时通讯让您从一开始就了解我们的工作流程。订单信息，工作进展和工作物资也可方便地查看。
+            </p>
+            <img src="assets/imgmz/step2.png" class="img">
+            <p><b>步骤 3: 订单完成! 给我们的服务评价吧</b></p>
+            <p>
+              订单完成后，您可以查看工人们的路线和路程时间并且对服务予以评分和评价。
+            </p>
+            <img src="assets/imgmz/step3.png" class="img">
+					</section>
+					<footer>
+            <a href="#device" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#sign-up" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="sign-up">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">登录APP</p>
+						<h1 class="article-title">注册</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              使用 Services Cube 服务的前提是，您已经是我们服务供应商的客户了。您的服务供应商会提供给您设置用户账号的必要凭证。
+              基于以上前提，下面的步骤将帮助您进一步了解如何注册用户账号。
+            </p>
+            <h2>基本步骤</h2>
+            <p>
+              打开 Services Cube APP 后，即出现登录注册界面。假设您已经有了服务商提供给您的公司编号，下面是如何正确注册的步骤。
+            </p>
+            <img src="assets/imgmz/signup.png" class="img-l">
+            <ol>
+              <li>
+                点击页面下方的“创建新的账号”按钮。
+              </li>
+              <li>
+                选择“用户”为您的角色。
+              </li>
+              <li>
+                填写注册页面的所有内容。请注意检查您的邮箱以获取验证码。
+              </li>
+              <li>
+                提交成功后，请等待管理员审核。管理员审核通过后，将给您发送初始密码。
+              </li>
+            </ol>
+					</section>
+					<footer>
+            <a href="#flow" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#sign-in" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="sign-in">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">登录APP</p>
+						<h1 class="article-title">登录</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              注册成功后，剩下的便十分容易了。请注意，您的邮箱账号至关重要以防万一您忘记了密码或想要修改密码。
+            </p>
+            <p>另外, 请参考 <a href="#reset" class="link anchor" data-toggle="tab"> 重置密码. </a></p>
+            <img src="assets/imgmz/login.png" class="img-s img-thumbnail">
+            <p>注意:</p>
+            <ul>
+              <li>
+                当你第一次登录时，请使用注册成功后发送至您邮箱的初始密码。
+              </li>
+              <li>
+                请输入“公司”，“邮箱”，“密码”，然后点击“登录”按钮。（如上图所示）
+              </li>
+              <li>
+                第一次登录成功后，请立即更改您的密码。
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#sign-up" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#setting-o" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="setting-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">基础设置</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>描述</h2>
+            <p>
+              如你所知，除了你的电子邮件地址之外，目前关于您的信息不太充足。
+              您需要做的第一件事是填写所有关于您的基本信息，这样的话，当您想要申请我们的服务的时候我们才能够与您取得联系。
+            </p>
+            <p><b>注意:</b></p>
+            <ul>
+              <li>
+                基础设置包括设置联系信息，个人信息和信用卡信息。
+              </li>
+              <li>
+                联系信息包括您的地址和联系电话。服务将基于您的地理位置进行，并请确保您的电话号码可用。
+              </li>
+              <li>
+                个人信息包括：头像，姓名，性别，生日和公司信息。
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#sign-in" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#contact" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="contact">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">基础设置</p>
+            <h1 class="article-title">联系信息</h1>
+          </header>
+          <section class="article-body">
+            <h2>概述</h2>
+            <p>
+              考虑到 Services Cube 是基于现场服务而构建的，那么您的地址和电话号码对我们来说是必不可少的。
+              由于您可能不止一个地方需要服务，因此您可以保存多个地址和电话号码。
+            </p>
+            <h2>基本步骤</h2>
+            <img src="assets/imgmz/address.png" class="img-l" style="margin-bottom: 0">
+            <img src="assets/imgmz/phone.png" class="img-l">
+            <ol>
+              <li>
+                请先点击下方标签栏中的“我的”。
+              </li>
+              <li>
+                请点击“地址”，然后点击下方的“添加新的地址”。填写所有空格，之后不要忘记点击右上角的“完成”按钮。
+              </li>
+              <li>
+                请点击“电话号码”，然后点击底部的添加按钮。填写所有空格，完成后不要忘记点击右上角的“完成”按钮。
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#setting-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#personal" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane " id="personal">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">基础设置</p>
+            <h1 class="article-title">个人信息</h1>
+          </header>
+          <section class="article-body">
+            <h2>概述</h2>
+            <p>
+              您不需要担心可靠性和安全性。我们已经采取了周全的措施来保护所有的系统和数据。
+              对于客户来说，一些个人信息是可选的，我们只会使用这些数据为您提供更好更合适的服务。
+            </p>
+            <h2>基本步骤</h2>
+            <img src="assets/imgmz/personal.png" class="img-l">
+            <ol>
+              <li>
+                请先点击下方标签栏中的“我的”。
+              </li>
+              <li>
+                请点击屏幕顶部的头像区域。
+              </li>
+              <li>
+                请单击右上角的“编辑”按钮，然后填入您想要填写的信息。
+              </li>
+              <li>
+                当您完成后，请不要忘记点击右上角的“完成”按钮。
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#contact" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#wallet" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="wallet">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">基础设置</p>
+            <h1 class="article-title">钱包</h1>
+          </header>
+          <section class="article-body">
+            <h2>概述</h2>
+　           <p>
+              请注意，使用 Services Cube 是完全免费的，您只需为申请的服务付费。
+              所有的付款均通过信用卡支付，我们保证您的付款是最安全的，并且 Services Cube 永远不能查看你的信用卡详情。
+            </p>
+            <p>
+              为了充分使用我们的全部服务，我们建议您现在就按照步骤设置您的信用卡信息。
+            </p>
+            <h2>基本步骤</h2>
+            <img src="assets/imgmz/wallet1.png" class="img-l" style="margin-bottom: 0">
+            <img src="assets/imgmz/wallet2.png" class="img-l">
+            <ol>
+              <li>请点击下方标签栏中的“我的”。</li>
+              <li>
+                点击“我的钱包”，然后点击“添加新的信用卡”按钮，在您的帐户上添加新的信用卡。填写所有空格，完成后点击“完成”。
+              </li>
+              <li>当您处于“我的钱包”页面时，点击右上角的省略号按钮。如果您愿意，您可以在这里轻松地设置您的首要支付方式。
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#personal" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#reset" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="reset">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">基础设置</p>
+            <h1 class="article-title">重置密码</h1>
+          </header>
+          <section class="article-body">
+            <h2>概述</h2>
+　           <p>
+              我们强烈建议您在第一次登录后更改密码。请注意，如果您忘记了密码或想要更改密码，你的电子邮件帐户是非常重要的。
+            </p>
+            <h2>忘记密码</h2>
+            <p>这适用于当您不记得您的密码而不能成功登录时。 </p>
+            <img src="assets/imgmz/reset1.png" class="img">
+            <ol>
+              <li>点击“忘记密码？”按钮。</li>
+              <li>请按照指示填写所有必需的信息，并检查您的邮箱以获得验证码。</li>
+              <li>最后，点击“完成”以确认重置密码。</li>
+            </ol>
+            <br>
+            <h2>更改密码</h2>
+            <p>当您记得您原来的密码并且想要更改您的密码时，您可以不需要通过邮箱验证而轻松更改密码。</p>
+            <img src="assets/imgmz/reset2.png" class="img">
+            <ol>
+              <li>请点击下方标签栏中的“我的”。</li>
+              <li>点击“重置密码”，然后按照指示输入当前密码和新密码。</li>
+              <li>最后，点击“确认”来确认重置密码。</li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#wallet" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#services" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="services">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">服务提供</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>我们的服务</h2>
+            <p>
+              我们提供的服务包括保洁服务，安保服务，疏通管道服务，维修服务，园艺服务等等，每种服务都有其不同的具体服务类别。选择我们，就是选择了可靠而全面的现场服务。
+            </p>
+            <p>
+              我们根据工作要求、员工技能、资格证书、是否空闲和路程时间为您选择最合适的员工。
+            </p>
+            <img src="assets/imgmz/service.png" class="img-s img-thumbnail">
+            <p>注意:</p>
+            <ul>
+              <li>
+                您可以选择的服务种类取决于您的服务提供商。
+              </li>
+              <li>
+                不同的服务可能包含不同的工作物资。
+              </li>
+              <li>
+                如果您有特定的服务请求，您可以通过 app 在订单详情区域进行描述。
+              </li>
+              <li>
+                服务不存在隐藏的费用。当您申请服务时，所有的费用均清楚地显示在订单页面。另外, 请参考 <a href="#payment" class="link anchor" data-toggle="tab"> 订单支付。 </a>
+                请注意，请使用 Services Cube APP 没有任何的额外费用。
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#reset" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#create-o" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="create-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">创建新的订单</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>描述</h2>
+            <p>
+              为了更好的完成服务同时与您保持联络，我们需要您填写一些必要的相关信息。我们非常注重隐私和安全，因为我们深知我们肩负着把受过良好训练的工人送到人们的私人空间的责任。
+              您的联系信息和私人信息将只在服务期间以安全的方式使用。
+            </p>
+            <h2>内容</h2>
+            <p>下面的列表包含了创建新的订单时所有需要的信息:</p>
+            <ul>
+              <li>
+                地址 (服务进行的地点)
+              </li>
+              <li>
+                电话 (在整个服务过程中与您取得并保持联系)
+              </li>
+              <li>
+                服务类型 (选择您需要的服务类型)
+              </li>
+              <li>
+                服务频率 (选择您多久需要一次服务)
+              </li>
+              <li>
+                预定时间 (请选择您想要预定多久的服务)
+              </li>
+              <li>
+                服务时长 (每次服务的时长由您决定)
+              </li>
+              <li>
+                服务时间 (服务开始的时间)
+              </li>
+              <li>
+                开始日期 (开始服务的日期)
+              </li>
+            </ul>
+            <br>
+            <p>选填的内容包括:</p>
+            <ul>
+              <li>
+                工作描述 (描述您的具体情况和特殊的要求)
+              </li>
+              <li>
+                 图片上传 (可以帮助我们更好地理解您的情况和要求)
+              </li>
+            </ul>
+
+					</section>
+					<footer>
+            <a href="#services" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#one-time" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="one-time">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">创建新的订单</p>
+						<h1 class="article-title">创建单次订单</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              确保客户满意是我们的首要任务。我们不仅提供各种各样的服务，并且提供多样化的服务选择。
+            </p>
+            <p>
+              假设现在马上要到春节了，您想要预订一次性的家庭清洁服务，以下是您应该做的。
+            </p>
+            <h2>基本步骤</h2>
+            <br>
+            <img src="assets/imgmz/create1.png" class="img-l">
+            <ol>
+              <li>
+                在主页选择您需要的服务。
+              </li>
+              <li>
+                选择您的地址和联系号码。
+              </li>
+              <li>
+                选择您需要的服务类型。
+              </li>
+              <li>
+                在服务频率区域选择 <b>"单次"</b> 。
+              </li>
+              <li>
+                在服务时长区域选择您需要的服务时长。
+              </li>
+              <li>
+                选择您需要服务开始的日期和时间。
+              </li>
+              <li>
+                接下来只需点击“提交”，我们便会尽快与您联系。
+              </li>
+            </ol>
+					</section>
+					<footer>
+            <a href="#create-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#repeat" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="repeat">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">创建新的订单</p>
+						<h1 class="article-title">创建重复性订单</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              您是否有过这样的情况:您真的需要一位值得信赖的清洁工定期打扫你的房子，最终却只是从中介处雇佣了一位，还持续不到一个月?
+              在 Services Cube APP 的帮助下，这样的情况将不再发生。
+            </p>
+            <p>
+              以下是您应该做的:
+            </p>
+            <h2>基本步骤</h2>
+            <br>
+            <img src="assets/imgmz/repeat.png" class="img-l">
+            <ol>
+              <li>
+                在主页选择您需要的服务。
+              </li>
+              <li>
+                选择您的地址和联系号码。
+              </li>
+              <li>
+                选择您需要的服务类型。
+              </li>
+              <li>
+                按您的需求在服务频率区域选择 <b>"每天 / 每周 / 每月"</b> 。
+              </li>
+              <li>
+                选择您需要预定多少周。
+              </li>
+              <li>
+                在服务时长区域选择您需要的服务时长。
+              </li>
+              <li>
+                选择您需要服务开始的日期和时间。
+              </li>
+              <li>
+                接下来只需点击“提交”，我们便会尽快与您联系。
+              </li>
+            </ol>
+            <br>
+            <p><b>注意:</b></p>
+            <ul>
+              <li>
+                “首次服务日期” 即第一次开始服务的日期，我们将据此自动计算出其余的服务日期。
+              </li>
+              <li>
+                对于每周/每天进行的服务，预定的最少时间为一周。而对于每月进行的服务，预定的最少时间为一个月。
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#one-time" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#payment" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="payment">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">创建新的订单</p>
+						<h1 class="article-title">订单支付</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              在 Services Cube，您可以找到各种各样的服务。每种服务都有自己的小时费率，并且所有付款都通过信用卡支付。只有工人确认他们已成功完成工作后，我们才会扣款。
+            </p>
+            <p>
+              此外，我们集中的账单和在线发票系统将让您了解您的所有支出。订单结束后，我们将立即发送发票到您的电子邮箱。
+            </p>
+            <p><b>注意:</b></p>
+            <ul>
+              <li>总的支付价格是根据费用、折扣和税率计算的。 </li>
+              <li>使用 Services Cube 没有任何费用。</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#repeat" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#calendar-o" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="calendar-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">订单日历</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>描述</h2>
+            <p>
+              Services Cube 强调简洁。我们知道，复杂的日程安排会让用户陷入困境，但对于 Services Cube APP 来说，这不再是个问题。
+            </p>
+            <p>
+              订单页面默认以时间流形式展示当天的所有订单。在这个页面，您可以以日历视图查看每天不同状态的所有订单卡片。
+            </p>
+            <h2>内容</h2>
+            <p><b>日历视图</b></p>
+            <p>
+              日历视图区域包含以下内容:
+            </p>
+            <ul>
+              <li>
+                左上角的左箭头按钮。按下这个按钮可以将日期调至当前日期之前。
+              </li>
+              <li>
+                右上角的右箭头按钮。按下这个按钮可以将日期调至当前日期之后。
+              </li>
+              <li>
+                下拉屏幕，日历视图将以月视图显示。
+              </li>
+            </ul>
+            <br>
+            <p><b>订单卡片</b></p>
+            <p>
+               订单卡片视图包含以下信息:
+            </p>
+            <ul>
+              <li>订单状态 (订单状态随着工作进程而改变)</li>
+              <li>订单编号 (每个订单都有自己不同的订单编号)</li>
+              <li>上报人 (申请服务的客户)</li>
+              <li>服务地址 (服务进行的地址)</li>
+              <li>服务类型 (客户选择的服务类型)</li>
+              <li>服务频率 (单次 / 实时 / 每日 / 每周 / 每月)</li>
+              <li>服务开始时间 (计划的开始时间)</li>
+              <li>服务结束时间 (计划的结束时间)</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#payment" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#calendar-v" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="calendar-v">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">订单日历</p>
+						<h1 class="article-title">日历视图</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              位于屏幕顶部的是日历区域。您可以通过简单的单击查看每天的订单。
+            </p>
+            <p>
+              在日历区域，日期数字下面有红点的是安排有订单的日期。点击拥有红点的日期将显示那天安排的所有订单。
+              而点击下列的订单卡片将进入相应的订单详情页。
+            </p>
+            <img src="assets/imgmz/calendar.png" class="img-l">
+            <br>
+            <h2>下拉刷新</h2>
+            <p>
+              如果想要刷新页面或重新加载，请先将页面下拉至月视图，然后再次下拉直至刷新。
+            </p>
+            <img src="assets/imgmz/refresh.jpeg" class="img-s img-thumbnail">
+					</section>
+					<footer>
+            <a href="#calendar-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#cards" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="cards">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">订单日历</p>
+						<h1 class="article-title">订单卡片</h1>
+					</header>
+					<section class="article-body">
+						<h2>概述</h2>
+            <p>
+              订单卡片是每个订单的摘要，按时间顺序排列在订单列表中。
+              轻击订单卡片将进入相应的 <a href="#detail-o" class="link anchor" data-toggle="tab"> 订单详情 </a> 页面。
+            <ul>
+              <li>订单卡片按时间顺序排序，除了实时的订单。</li>
+              <li>不同的订单状态有不同的颜色加以区分。</li>
+            </ul>
+            <br>
+            <img src="assets/imgmz/card1.png" class="img-s img-thumbnail">
+            <br>
+            <h2>订单状态</h2>
+            <p>
+              订单状态和订单卡片的主题颜色随着工作进程的推进而改变。下面是不同状态对应的主题颜色：
+            </p>
+            <img src="assets/imgmz/color.png" class="img-s img-thumbnail">
+					</section>
+					<footer>
+            <a href="#calendar-v" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+            <a href="#detail-o" class="link next anchor" data-toggle="tab">下一页<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="detail-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">订单详情</p>
+						<h1 class="article-title">概述</h1>
+					</header>
+					<section class="article-body">
+						<h2>描述</h2>
+            <p>
+              轻点订单卡片便可以进入订单详情了。订单详情页面包含了以下信息:
+            </p>
+            <img src="assets/imgmz/detail1.png" class="img-l">
+            <ul>
+              <li><p><b>地图 & 位置</b></p>
+                <p>
+                  在我们的订单地图上，您可以查看详细的位置信息，包括您和您的工人之间的精确距离，以及您的工人到达后的详细路线。
+                  实时地图使您能够很容易地追踪指派给您的工人的具体位置并控制工作进度。
+                </p>
+              </li>
+              <li><p><b>联系区域</b></p>
+                <p>
+                  您可以在整个过程中与您的工人取得联系。左边的按钮是用来发送信息的，右边的按钮是用来打电话的。再也不用担心因为沟通不畅而导致失误。
+                </p>
+              </li>
+              <li><p><b>订单信息</b></p>
+                <p>
+                包括了姓名, 地址, 电话, 服务类型, 服务时间, 负责人等。基本上，所有关于订单的信息都在这里了。
+                </p>
+              </li>
+              <li><p><b>工作进程</b></p>
+                <p>
+                  查看所有工作进度信息。Services Cube 会记录下工作过程中所有阶段的时间进程。当工人一步步地完成工作的同时，订单状态也会及时更新。
+                </p>
+              </li>
+              <li><p><b>工作记录</b></p>
+                <p>
+                  整个工作过程中您都可以通过工作记录来了解工作情况。您也可以在这里与您的工人沟通您的详细要求。
+                </p>
+              </li>
+              <li><p><b>工作物资</b></p>
+                <p>
+                  在工作物资面板，了解工作中使用的所有工作物资。
+                </p>
+              </li>
+              <li><p><b>工作账单</b><p>
+                <p>
+                  让您清楚知道所有的开销。没有任何隐藏的费用。
+                </p>
+               </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#cards" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>上一页</a>
+					</footer>
+				</article>
+      </div>
+
+
+
+    </main>
+
+
+  </div><!-- page-wrapper -->
+
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap2.min.js"></script>
+	<script src="assets/js//jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>

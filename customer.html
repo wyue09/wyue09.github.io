@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap2.min.css">
+    <title>Services Cube Customer Manual</title>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <link rel="shortcut icon" href="assets/img/icon.png">
+</head>
+<body>
+	<div class="page-wrapper">
+		<nav id="sidebar" class="sidebar-wrapper">
+			<div class="sidebar-content">
+				<a href="#" id="toggle-sidebar"><i class="fa fa-bars"></i></a>
+				<div class="sidebar-brand">
+						<a href="#home" data-toggle="tab" class="nav-link">Customer Manual</a>
+				</div>
+
+				<div class="sidebar-search">
+						<div>
+								<div class="input-group">
+										<input type="text" class="form-control search-menu" placeholder="Search for...">
+										<span class="input-group-addon"><i class="fa fa-search"></i></span>
+								</div>
+						</div>
+				</div><!-- sidebar-search  -->
+				<div class="sidebar-menu">
+						<ul id="nav-tab">
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Introdution to Services Cube</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#intro-o" class="nav-link">Overview</a></li>
+														<li><a data-toggle="tab" href="#device" class="nav-link">Device compatibility</a></li>
+														<li><a data-toggle="tab" href="#flow" class="nav-link">Workflow overview</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Logging in</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#sign-up" class="nav-link">Sign up</a></li>
+														<li><a data-toggle="tab" href="#sign-in" class="nav-link">Sign in</a></li>
+												</ul>
+										</div>
+								</li>
+                <li class="sidebar-dropdown">
+										<a href="#"><span>Basic settings</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#setting-o" class="nav-link">Overview</a></li>
+                            <li><a data-toggle="tab" href="#contact" class="nav-link">Contact info</a></li>
+														<li><a data-toggle="tab" href="#personal" class="nav-link">Personal info</a></li>
+                            <li><a data-toggle="tab" href="#wallet" class="nav-link">Wallet</a></li>
+														<li><a data-toggle="tab" href="#reset" class="nav-link">Reset password</a></li>
+												</ul>
+										</div>
+								</li>
+                <li class="sidebar-dropdown">
+										<a href="#"><span>Services Cube services</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#services" class="nav-link">Overview</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Creating a new case</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#create-o" class="nav-link">Overview</a></li>
+														<li><a data-toggle="tab" href="#one-time" class="nav-link">Creating a one-time case</a></li>
+														<li><a data-toggle="tab" href="#repeat" class="nav-link">Creating repeating cases</a></li>
+														<li><a data-toggle="tab" href="#payment" class="nav-link">Case payment</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Cases calendar</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a data-toggle="tab" href="#calendar-o" class="nav-link">Overview</a></li>
+														<li><a data-toggle="tab" href="#calendar-v" class="nav-link">Calendar views</a></li>
+														<li><a data-toggle="tab" href="#cards" class="nav-link">Case cards</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Case details</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+													<li><a data-toggle="tab" href="#detail-o" class="nav-link">Overview</a></li>
+												</ul>
+										</div>
+								</li>
+                <!--
+                <li class="sidebar-dropdown">
+										<a href="#"><span>Reviews</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Overview</a></li>
+														<li><a href="#">Ratings & Comments</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>QR code</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Overview</a></li>
+														<li><a href="#">Verification of identities</a></li>
+												</ul>
+										</div>
+								</li>
+
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Points</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Overview</a></li>
+														<li><a href="#">Point rules</a></li>
+														<li><a href="#">View point details</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Wallet</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Overview</a></li>
+														<li><a href="#">Add new card</a></li>
+														<li><a href="#">Card memo</a></li>
+														<li><a href="#">Primary payment method</a></li>
+												</ul>
+										</div>
+								</li>
+								<li class="sidebar-dropdown">
+										<a href="#"><span>Others</span></a>
+										<div class="sidebar-submenu">
+												<ul>
+														<li><a href="#">Notifications</a></li>
+														<li><a href="#">Location tracking</a></li>
+														<li><a href="#">Help</a></li>
+												</ul>
+										</div>
+								</li>
+              -->
+
+						</ul>
+					 </div><!-- sidebar-menu  -->
+				</div><!-- sidebar-content  -->
+
+
+		</nav><!-- sidebar-wrapper  -->
+  	<main class="container page-content tab-content" id="nav-tabContent">
+
+      <div class="tab-pane in active" id="home">
+        <div class="pull-right">
+          <a href="manual.html" class="link"><i class="fa fa-caret-left"></i>&nbsp; Home Page</a>
+        </div>
+				<div class="landing-page">
+					<img src="assets/img/icon.png" class="icon-img">
+					<h4>Services Cube Customer Manual</h4>
+					<p>Copyright © 2018 Services Cube. All rights reserved.</p>
+				</div>
+      </div>
+
+			<div class="tab-pane " id="intro-o">
+				<article>
+					<header class="article-header">
+						<p class="chapter-name">Introdution</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>What is Services Cube</h2>
+						<p>Services Cube is in the business of getting qualified field-based service providers for various services ranging from cleaning services, security needs, appliances repairs,gardening and so on.
+							The Services Cube APP for customers makes it easy to get instant access to reliable services from mobile phone.
+						</p>
+						<p>In Services Cube,you can do the following, and more:</p>
+						<ul>
+							<li>
+								Booking services which consist of Securities, Plumbers, Gardeners, Trailers,Electricians and Cleaning. Just leave it with our pro workers.
+							</li>
+							<li>
+								Seamless scheduling and booking overview in calendar form.
+							</li>
+							<li>
+								Access case information such as case details, assets, billings, job notes, etc.
+							</li>
+							<li>
+								Keeping track of your assigned worker via real-time visual map.
+							</li>
+							<li>
+								Instant conmunication with your assigned worker via SMS or Phone.
+							</li>
+							<li>
+								Be automatically notified of new case changes in an instant over push notifications, SMS, or email notifications.
+							</li>
+              <li>
+                Simple yet accurate online billing & payment system keep you aware of your expenditures all the time.
+              </li>
+              <li>
+                The main objective of Services Cube is customer satisfaction. Feel free to give comments and raings as you like.
+              </li>
+              <li>
+                Safty matters to us. With our QR code, there's absolutely no need to worry about getting the wrong person into your house.
+              </li>
+						</ul>
+					</section>
+					<footer>
+            <a href="#home" class="link prev anchor" data-toggle="tab" ><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#device" class="link next anchor" data-toggle="tab" >Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+			<div class="tab-pane" id="device">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Introdution</p>
+						<h1 class="article-title">Device Compatibility</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>The Device Compatibility Guide provides information about which electronic devices can be connected and information about how to connect them.
+						</p>
+            <h2>Supported By</h2>
+						<p>The Services Cube app is supported by a wide range of iOS (Apple) and Android devices. Most devices less than two years old should work well. However, it is not compatible with Windows devices at this time. </p>
+            <p>Services Cube is supported on the following operating systems:</p>
+            <ul>
+              <li>iOS version 9.3 (and above).</li>
+              <li>Android version 4.4 (and above).</li>
+            </ul>
+            <p>
+              Please note, you may not find a specific device on this page, as new devices update frequently. Despite the fact that we always do our best to ensure there's enough support for older versions,
+              we highly recommend using the latest iOS and Android versions and staying up-to-date with version updates.
+            </p>
+            <h2>How To Connect</h2>
+            <p>
+              The Services Cube app can be downloaded from the corresponding app stores (<a href="https://play.google.com/store/apps/details?id=com.aurora.servicecube" class="link"> Google Play </a> and <a href="https://itunes.apple.com/us/app/services-cube/id1390465688" class="link"> Apple App Store </a>).
+            </p>
+            <p>Note:</p>
+            <ul>
+              <li>Android users should make sure that their Google Play Services are updated.</li>
+              <li>We recommend you update regularly to get new features and fixes. </li>
+              <li>Please contact your device’s manufacturer with questions about updating your device’s operating system.</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#intro-o" class="link prev anchor" data-toggle="tab" ><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#flow" class="link next anchor" data-toggle="tab" >Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+			<div class="tab-pane" id="flow">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Introdution</p>
+						<h1 class="article-title">Workflow Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+						<p>
+              The main process of applying for a service with Services Cube is described below. Not all of them are necessary, and you might do other steps that aren't listed.
+						</p>
+            <p>
+              So, basically this is just an example to get you started.
+            </p>
+            <h2>Basic Steps</h2>
+            <p><b>Step 1: Book a service</b></p>
+            <p>Just in a few clicks you can choose the date and time, frequency and duration of your services and pay online safely.
+              Sit back and relax, our skilled workers can take care of the rest.
+            </p>
+            <img src="assets/imgme/step1.png" class="img">
+            <p><b>Step 2: Skilled workers from your neiborhood</b></p>
+            <p>Real-time location tracking map and instant conmunication make you aware of our working process from the very beginning. Case info, case progress and assets are also available.
+            </p>
+            <img src="assets/imgme/step2.png" class="img">
+            <p><b>Step 3: Job done! Leave a comment on our services</b></p>
+            <p>After finishing the job, you're able to see the routes and total time of the workers and give comments as you like.
+            </p>
+            <img src="assets/imgme/step3.png" class="img">
+					</section>
+					<footer>
+            <a href="#device" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#sign-up" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="sign-up">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Logging in</p>
+						<h1 class="article-title">Sign Up</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>To use Services Cube, you must be a client of our supply companies. Your supplier can provide you with the necessary credentials to set up as a user.
+              Based on that, below are some brief instructions that will help you better understand how to sign up as a user.
+            </p>
+            <h2>Basic Steps</h2>
+            <p>
+              Once you have opened the Services Cube APP, the login screen appears. Provided that you already have the company code, here's what you should do to sign up correctly.
+            </p>
+            <img src="assets/imgme/signup.png" class="img-l">
+            <ol>
+              <li>
+                Click the button labeled "Create a new account" at the bottom of the page.
+              </li>
+              <li>
+                Choose "User" as your character.
+              </li>
+              <li>
+                Fill in all the blanks in the sign up page. Do notice that you'll have to check your email for Verification Code.
+              </li>
+              <li>
+                Wait until the admin has verified your account and sent you the initial password, then you are good to go.
+              </li>
+            </ol>
+
+					</section>
+					<footer>
+            <a href="#flow" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#sign-in" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="sign-in">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Logging in</p>
+						<h1 class="article-title">Sign In</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>Once you have signed up, the rest is just a piece of cake. Do notice that your email account is absolutely essential here if you ever forget your password or wanna change it.
+            </p>
+            <p>Also, see <a href="#reset" class="link anchor" data-toggle="tab"> Reset password. </a></p>
+            <img src="assets/imgme/login.png" class="img-s img-thumbnail">
+            <p>Note:</p>
+            <ul>
+              <li>
+                The first time you sign in, use the initial password sent to your email before.
+              </li>
+              <li>
+                Input the "Company", "E-mail", "Password", and click Sign in. (See above)
+              </li>
+              <li>
+                Please change your password immediately, after your first login.
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#sign-up" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#setting-o" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="setting-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Basic Settings</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Description</h2>
+            <p>
+              As you know, there is not enough information about you except for your E-mail address.
+              The first thing you need to do is fill in all your basic information so that we can get in touch with you if you'd like to apply for our services.
+            </p>
+            <p><b>Note:</b></p>
+            <ul>
+              <li>
+                Basic settings includes contact info, personal info and credit card information.
+              </li>
+              <li>
+                Contact info: Your address and phone number. Jobs will be performed based on your geographic location and make sure your phone number is available.
+              </li>
+              <li>
+                Personal info: Including avartar, name, gender, birthday and company info.
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#sign-in" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#contact" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane " id="contact">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">Basic Settings</p>
+            <h1 class="article-title">Contact Info</h1>
+          </header>
+          <section class="article-body">
+            <h2>Overview</h2>
+            <p>
+              Given that Services Cube is built for field-based services, your addresses and phone numbers are essential to us.
+              Since you may need services in more than one place, it's available to save several addresses and phone numbers.
+            </p>
+            <h2>Basic Steps</h2>
+            <img src="assets/imgme/address.png" class="img-l" style="margin-bottom: 0">
+            <img src="assets/imgme/phone.png" class="img-l">
+            <ol>
+              <li>
+                Click "Me" from the tabbar.
+              </li>
+              <li>
+                Click "Address" and then click the add button at the bottom screen. Fill in all the blanks and don't forget to click the "done" button at the top-right screen.
+              </li>
+              <li>
+                Click "Phone Number" and then click the add button at the bottom screen. Fill in all the blanks and don't forget to click the "done" button at the top-right screen when you are finished.
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#setting-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#personal" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane " id="personal">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">Basic Settings</p>
+            <h1 class="article-title">Personal Info</h1>
+          </header>
+          <section class="article-body">
+            <h2>Overview</h2>
+            <p>
+              No need to worry about reliability and safety here. We took serious actions to protect all systems and data.
+              As for customers, some of the personal information is optional and we'll only use the data to provide you with better and more suitable services.
+            </p>
+            <h2>Basic Steps</h2>
+            <img src="assets/imgme/personal.png" class="img-l">
+            <ol>
+              <li>
+                Click "Me" from the tabbar.
+              </li>
+              <li>
+                Click the avartar area at the top screen.
+              </li>
+              <li>
+                Click the "Edit" button at the top-right screen, then fill in the blanks as you like.
+              </li>
+              <li>
+                Don't forget to click the "done" button at the top-right screen when you are finished.
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#contact" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#wallet" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="wallet">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">Basic Settings</p>
+            <h1 class="article-title">Wallet</h1>
+          </header>
+          <section class="article-body">
+            <h2>Overview</h2>
+　           <p>
+              Using Services Cube is totally free and you'll only have to pay for the services you required.
+              All payments are made via credit card and we guarantee that your payment is the most secure and we can never view your card details.
+            </p>
+            <p>In order to get the full benefit of our services, we recommend that you follow the step-by-step instructions to set up your credit card information now.  </p>
+            <h2>Basic Steps</h2>
+            <img src="assets/imgme/wallet1.png" class="img-l" style="margin-bottom: 0">
+            <img src="assets/imgme/wallet2.png" class="img-l">
+            <ol>
+              <li>Click "Me" from the tabbar.</li>
+              <li>Click "My Wallet" and then click the "Add New Card" button to add a new credit card to your account. Fill in all the blanks and click "Done" when you are finished.</li>
+              <li>Click the ellipsis dots button at the top-right screen when you are in "My Wallet" page.
+                You can easily set up your primary payment method here if you like.
+              </li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#personal" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#reset" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="reset">
+        <article>
+          <header class="article-header">
+            <p class="chapter-name">Basic Settings</p>
+            <h1 class="article-title">Reset Password</h1>
+          </header>
+          <section class="article-body">
+            <h2>Overview</h2>
+　           <p>
+              We highly recommend that you should change your password after your first login. Do notice that your email account is absolutely essential here if you ever forget your password or wanna change it.
+            </p>
+            <h2>Forgot Password</h2>
+            <p>This applies when you fail to remember your password and have trouble logging in. </p>
+            <img src="assets/imgme/reset1.png" class="img">
+            <ol>
+              <li>Click "Forgot your password?" button.</li>
+              <li>Fill in all the required information as instructed and check your email for Verification Code.</li>
+              <li>Finally, click "Confirm" to reset your password.</li>
+            </ol>
+            <br>
+            <h2>Change Password</h2>
+            <p>If you remember your original password, then you can easily change it without your email account. </p>
+            <img src="assets/imgme/reset2.png" class="img">
+            <ol>
+              <li>Click "Me" from the tabbar.</li>
+              <li>Click "Reset Password" and input your passwords as instructed.</li>
+              <li>Finally, click "Confirm" to reset your password.</li>
+            </ol>
+          </section>
+          <footer>
+            <a href="#wallet" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#services" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+          </footer>
+        </article>
+      </div>
+
+      <div class="tab-pane" id="services">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Services Cube services</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Our Services</h2>
+            <p>
+              We provide services which consist of Securities, Plumbers, Gardeners, Trailers, Electricians and Cleaning. For each one of them, there're several types of its own. We are a sure shot destination for all of your service needs.
+            </p>
+            <p>
+              We select the right employee for you based on job requirements, employee skill sets, employee certifications, availability, and travel time.
+            </p>
+            <img src="assets/imgme/service.png" class="img-s img-thumbnail">
+            <p>Note:</p>
+            <ul>
+              <li>
+                Services you can choose from are based on your provider.
+              </li>
+              <li>
+                Each one of the services may contain different job assets.
+              </li>
+              <li>
+                If you have specific service requests you can put them in the case description area via the app and clarify the details.
+              </li>
+              <li>
+                No hidden cost for your services. All charges are displayed clearly when you applying for the services. Also, see <a href="#payment" class="link anchor" data-toggle="tab"> Case payment. </a>
+                Please note that there is no extra fee for using The Services Cube APP.
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#reset" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#create-o" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="create-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Creating a new case</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Description</h2>
+            <p>
+              In order to get the job done and keep you posted, certern information is required. We are big on trust and safety since we shoulder the responsibility of sending well-trained workers into people's personal space.
+               Your contact information will only be used during the services in a secure way.
+            </p>
+            <h2>Contents</h2>
+            <p>The following list contains all the fields that are required:</p>
+            <ul>
+              <li>
+                Address (The place where the case will be performed)
+              </li>
+              <li>
+                Phone Number (To contact and keep you posted through the entire case progress)
+              </li>
+              <li>
+                Service Type (Choose the specific type of service you need)
+              </li>
+              <li>
+                Frequency (How often do you need the service)
+              </li>
+              <li>
+                Booking (How long do you want to book the service)
+              </li>
+              <li>
+                Duration (How many hours for one time is your decision to make)
+              </li>
+              <li>
+                Service Time (What time should the service start)
+              </li>
+              <li>
+                Start Date (What date should the service start)
+              </li>
+            </ul>
+            <br>
+            <p>Optional fields include:</p>
+            <ul>
+              <li>
+                Case Description (Describe your case situation and special requests)
+              </li>
+              <li>
+                 Image Upload (To help us better understand your situation)
+              </li>
+            </ul>
+
+					</section>
+					<footer>
+            <a href="#services" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#one-time" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="one-time">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Creating a new case</p>
+						<h1 class="article-title">Creating a One-time Case</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>
+              It's our priority job to ensure our customers' satisfaction. Not only should we provide various of services, but also diversity of service options.
+            </p>
+            <p>
+              Suppose that it's already Christmas time and you'd like to book a one-time domestic cleaning, here's what you should do.
+            </p>
+            <h2>Basic Steps</h2>
+            <br>
+            <img src="assets/imgme/create1.png" class="img-l">
+            <ol>
+              <li>
+                Choose the service you want in the home screen.
+              </li>
+              <li>
+                Choose your Address and Phone Number.
+              </li>
+              <li>
+                Select your Service Type.
+              </li>
+              <li>
+                Choose <b>"Once"</b> in the Frequency area.
+              </li>
+              <li>
+                Choose how many hours you want in the Duration area.
+              </li>
+              <li>
+                Choose Time and Date for your service.
+              </li>
+              <li>
+                Just click "Submit" and we'll be in touch with you real soon.
+              </li>
+            </ol>
+					</section>
+					<footer>
+            <a href="#create-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#repeat" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="repeat">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Creating a new case</p>
+						<h1 class="article-title">Creating Repeating Cases</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>
+              Have you ever in the situation that you really need trust-worthy cleaner to clean up your house regularly but
+               ended up hiring someone from the black-market and lasting less than a month? With the Services Cube APP, days like that are totally behind you.
+            </p>
+            <p>
+              Here's what you should do:
+            </p>
+            <h2>Basic Steps</h2>
+            <br>
+            <img src="assets/imgme/repeat.png" class="img-l">
+            <ol>
+              <li>
+                Choose the service you want in the home screen.
+              </li>
+              <li>
+                Choose your Address and Phone Number.
+              </li>
+              <li>
+                Select your Service Type.
+              </li>
+              <li>
+                Choose <b>"Daily / Weekly / Monthly"</b> as you like in the Frequency area.
+              </li>
+              <li>
+                Choose how many weeks you'd like to book.
+              </li>
+              <li>
+                Choose how many hours you want for one time in the Duration area.
+              </li>
+              <li>
+                Choose Time and Date for your service.
+              </li>
+              <li>
+                Just click "Submit" and we'll be in touch with you real soon.
+              </li>
+            </ol>
+            <br>
+            <p><b>Note:</b></p>
+            <ul>
+              <li>
+                "First Start Date" means the start date of the first service. We'll automatically calculate the rest of the schedules based on that.
+              </li>
+              <li>
+                For weekly / daily services, Minimum time for booking is one week. As for monthly services, Minimum time for booking is one month.
+              </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#one-time" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#payment" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="payment">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Creating a new case</p>
+						<h1 class="article-title">Case Payment</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>
+              On Services Cube, you can find a variety of services for your home and more. Each service has its own hourly rates and all payments are made through credit card. We only take payment once your workers have confirmed that they have completed the job successfully.
+            </p>
+            <p>
+              Furthermore, centralized billing and online invoices keep you aware of your costs and expenditures. After finishing the service, the invoice will be emailed to your registered email address right away.
+            </p>
+            <p><b>Note:</b></p>
+            <ul>
+              <li>Total purchase price is calculated based on the costs, discount level and tax rate. </li>
+              <li>There's no fees for using Services Cube.</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#repeat" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#calendar-o" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="calendar-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Cases Calendar</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Description</h2>
+            <p>
+              Services Cube is built for simplicity. We understand that complex scheduling can put customers in a pickle but it's no longer a problem anymore with the Services Cube APP.
+            </p>
+            <p>
+              The "cases" screen defaults to today's case schedules in a timeline. From this view, you can see all of your case cards with different case status in the calendar form.
+            </p>
+            <h2>Contents</h2>
+            <p><b>Calendar view</b></p>
+            <p>
+              The calendar area contains the following:
+            </p>
+            <ul>
+              <li>
+                A left arrow button at the top-left corner.Tapping this button sets to the week / month before now.
+              </li>
+              <li>
+                A right arrow button at the top-right corner.Tapping this button sets to the week / month after now.
+              </li>
+              <li>
+                Pull down the screen reveals case calendar on a month-by-month basis.
+              </li>
+            </ul>
+            <br>
+            <p><b>Case cards</b></p>
+            <p>
+               Case cards view contains the following types of information:
+            </p>
+            <ul>
+              <li>Case status (Case status changes through the whole process)</li>
+              <li>Case number (Each case has its own unique Sequence Number)</li>
+              <li>Case reporter (Customer who reported the case before)</li>
+              <li>Case address (The place where the case will be performed)</li>
+              <li>Case type (The specific type of service you required)</li>
+              <li>Case frequency (Once / Real-time / Daily / Weekly / Monthly)</li>
+              <li>Case start-time (Scheduled start time)</li>
+              <li>Case end-time (Scheduled end time)</li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#payment" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#calendar-v" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="calendar-v">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Cases Calendar</p>
+						<h1 class="article-title">Calendar Views</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>
+              Located at the top of the case screen is the calendar area. You can see case schedules in different timeframes by simple clicks.
+            </p>
+            <p>
+              In the calendar, the days with red dots under are the days with scheduled cases. Tapping on a day with a red dot on it will display the cases scheduled for that day.
+              Tapping on a case card will take the user to the relevant case details.
+            </p>
+            <img src="assets/imgme/calendar.png" class="img-l">
+            <br>
+            <h2>Pull-to-Refresh</h2>
+            <p>
+              To refresh or reload content, the hand gesture to use is to pull-down the screen to monthly form first and keep pulling down till it refreshes.
+            </p>
+            <img src="assets/imgme/refresh.jpeg" class="img-s img-thumbnail">
+					</section>
+					<footer>
+            <a href="#calendar-o" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#cards" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="cards">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Cases Calendar</p>
+						<h1 class="article-title">Case Cards</h1>
+					</header>
+					<section class="article-body">
+						<h2>Overview</h2>
+            <p>
+              Case card is the summary of each case, displayed in a timeline.
+              Tapping on a case card will take the user to the relevant <a href="#detail-o" class="link anchor" data-toggle="tab"> Case details </a> view.
+            </p>
+            <ul>
+              <li>Cards are listed in chronological order except for the real-time cases.</li>
+              <li>Different case status has different theme color.</li>
+            </ul>
+            <br>
+            <img src="assets/imgme/card1.png" class="img-s img-thumbnail">
+            <br>
+            <h2>Case Status</h2>
+            <p>
+              Case status changes through the whole process so does the theme color. Below are the theme color of different status:
+            </p>
+            <img src="assets/imgme/color.png" class="img-s img-thumbnail">
+					</section>
+					<footer>
+            <a href="#calendar-v" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+            <a href="#detail-o" class="link next anchor" data-toggle="tab">Next<i class="fa fa-angle-right"></i></a>
+					</footer>
+				</article>
+      </div>
+
+      <div class="tab-pane" id="detail-o">
+        <article>
+					<header class="article-header">
+						<p class="chapter-name">Case details</p>
+						<h1 class="article-title">Overview</h1>
+					</header>
+					<section class="article-body">
+						<h2>Description</h2>
+            <p>
+              You can easily access case details by tapping the case card. The case details view shows the following information:
+            </p>
+            <img src="assets/imgme/detail1.png" class="img-l" >
+            <ul>
+              <li><p><b>Map & location</b></p>
+                <p>
+                On our case map, you can view the detailed location information including the precise distance between you and your workers and the detailed routes after your workers arrived.
+                Case map makes it easy to keep track of your workers and control the working progress.
+                </p>
+              </li>
+              <li><p><b>Contact</b></p>
+                <p>
+                The contacting area is where you can contact your worker through the entire process. The left button is for sending messages and the right button is for making phone calls.
+                No more worrying about unsufficient communication with your workers.
+                </p>
+              </li>
+              <li><p><b>Case information</b></p>
+                <p>
+                Name, address, phone, service type, time, assignee. Basically, all the information you'll ever need.
+                </p>
+              </li>
+              <li><p><b>Case progress</b></p>
+                <p>
+                  Get notified of new case changes. The app will track all time periods as they progress through the job. As your assigned workers complete your work step by step, case status will also be updated.
+                </p>
+              </li>
+              <li><p><b>Job notes</b></p>
+                <p>
+                  Get detaild job notes about your case through the working process. You can also communicate with your worker about your detailed requests here.
+                </p>
+              </li>
+              <li><p><b>Assets</b></p>
+                <p>
+                  Get informed of all used assets.
+                </p>
+              </li>
+              <li><p><b>Billings</b><p>
+                <p>
+                  Keep you aware of all the expenditures. No hidden fees.
+                </p>
+               </li>
+            </ul>
+					</section>
+					<footer>
+            <a href="#cards" class="link prev anchor" data-toggle="tab"><i class="fa fa-angle-left"></i>Preivous</a>
+					</footer>
+				</article>
+      </div>
+
+
+
+    </main>
+
+
+  </div><!-- page-wrapper -->
+
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap2.min.js"></script>
+	<script src="assets/js//jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>
