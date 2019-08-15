@@ -97,22 +97,22 @@ html, body {
   background-color: #ffe75a;
 }
 .bg-21{
-  background-color: #6da88a;
+  background-color: #c8c1b8;
 }
 .bg-22{
-  background-color: #579370;
+  background-color: #bab1a3;
 }
 .bg-31{
-  background-color: #405376;
+  background-color: #a6b9ce;
 }
 .bg-32{
-  background-color: #485F89;
+  background-color: #c5d2e1;
 }
 .bg-41{
-  background-color: #082B31;
+  background-color: #c8b8b5;
 }
 .bg-42{
-  background-color: #0F3A41;
+  background-color: #e1d4d2;
 }
 .bg-51{
   background-color: #082D66;
@@ -220,13 +220,13 @@ transition: all 0.5s;
   font-family: 'Oswald';
   margin-top: 1.2rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 .card-r{
   font-size: 0.6rem;
   font-weight: 500;
   color:#323232;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .card-d{
   font-size: 1.2rem;
@@ -248,7 +248,7 @@ transition: all 0.5s;
 }
 .sca-pic{
   position: relative;
-  margin:6rem 2rem 0 -60%;
+  margin:2rem 2rem 1rem -40%;
   background-color: #f3fbff;
   z-index:1;
 }
@@ -256,17 +256,14 @@ transition: all 0.5s;
   position: relative;
   background-color: #fff;
   z-index:2;
-  margin:2rem 4rem 0 2rem;
-  padding:2rem;
-  box-shadow: 34px 34px 0px #579370;
+  margin:8rem 4rem 8rem 2rem;
+  padding:4rem;
 }
 .scaw-pic{
   margin:2rem -45% 0 2rem;
   background-color: #f3fbff;
 }
-.intro-scaw{
-  box-shadow: -34px 34px 0px #485F89;
-}
+
 .aifm-pic{
   margin:2rem -55% 0 2rem;
   background-color: #f3fbff;
@@ -433,7 +430,7 @@ transition: all 0.5s;
   padding: 10rem 8rem;
   line-height: 2;
   color: #323232;
-  background-color: #f0f1e7;
+  background-color: #fbf9f8;
   z-index: 2;
   margin-top: 700px;
 }
@@ -454,13 +451,14 @@ transition: all 0.5s;
   letter-spacing: 0.18em;
   font-weight: 300;
   text-transform: uppercase;
-  margin: 5px 0;
-  color:#334f7e;
+  margin: 5px 0 10px 0;
+  color:#333;
   font-family: 'Oswald';
-  opacity: 0.7
+  opacity: 0.7;
+  line-height: 2;
 }
 .p-t{
-  color:#334f7e;
+  color:#333;
   margin-top: 2rem;
   font-size: 3.2rem;
   font-weight: 500;
@@ -475,19 +473,43 @@ transition: all 0.5s;
 .project-text1{
   margin-top:4%;
   font-size: 1.6rem;
+  font-weight: 800;
+
+}
+.project-text1 span{
+  font-size:1.2rem;
+  color:#c1c2bc;
+  font-weight: 400;
+}
+.project-text1 a{
+  float: right;
 }
 .project-text2{
-  margin-top:8%;
+  margin-top:4%;
   font-size: 1.2rem;
+  margin-bottom:8%;
+
 }
 .project-pic{
   text-align: center;
   width:100%;
-  margin:8% 0 4% 0;
+  margin:4% 0 2% 0;
+}
+.shadow{
+ box-shadow: 2px 40px 80px #dfdfdf;
 }
 .project-pic2{
   margin:8% 0 4% 30%;
   width:70%;
+}
+hr{
+  background-color: #e5e5e5;
+    color: #e5e5e5;
+    height: 1px;
+    border: 0;
+    clear: both;
+    margin:8% 0;
+}
 }
 .project-pic2a{
   margin:8% 30% 4% 0;
@@ -509,7 +531,7 @@ transition: all 0.5s;
   text-align:center
 }
 /*----------------------------media---------------------------*/
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1921px) {
   html{font-size:22px;}
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -593,7 +615,7 @@ transition: all 0.5s;
   }
   .card-r{
     font-size: 0.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .card-d{
     font-size: 1rem;
