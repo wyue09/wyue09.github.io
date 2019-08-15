@@ -509,7 +509,7 @@ transition: all 0.5s;
   text-align:center
 }
 /*----------------------------media---------------------------*/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1920px) {
   html{font-size:22px;}
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
