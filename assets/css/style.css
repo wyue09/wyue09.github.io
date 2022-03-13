@@ -30,8 +30,23 @@ align-items:center;
   background: url("../img/left.png") no-repeat top;
   background-size:100%;
   width:200px;
-  height:400px
+  height:400px;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.8s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.8s;
+	transition: opacity 0.3s, transform 0.8s;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
 }
+.leftcat:hover{
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.8s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.8s;
+	transition: opacity 0.3s, transform 0.8s;
+	-webkit-transform: translateY(30px);
+	-moz-transform: translateY(30px);
+	transform: translateY(30px);
+}
+
 .rightcat{
   position:absolute;
   right:-80px;
@@ -40,6 +55,20 @@ align-items:center;
   background-size:100%;
   width:240px;
   height:400px;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.rightcat:hover{
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	transform: translateY(-30px);
 }
 .nav{
   margin:auto;
@@ -82,5 +111,19 @@ align-items:center;
   position: relative;
   top:20px;
   left:-20px;
-  width:50px
+  width:50px;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.hand:hover{
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
 }
